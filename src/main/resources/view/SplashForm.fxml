@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="393.0" prefWidth="278.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashFormController">
+   <children>
+      <Label fx:id="lblLoadingText" alignment="CENTER" layoutX="96.0" layoutY="345.0" prefHeight="27.0" prefWidth="87.0" text="Loading..." AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="87.0" layoutY="235.0" prefHeight="55.0" prefWidth="39.0" text="E">
+         <font>
+            <Font name="DejaVu Serif Bold" size="60.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="46.0" layoutX="116.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="48.0">
+         <image>
+            <Image url="@../image/load.gif" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="359.0" text="copyright @2022 DEP9. All Rights Reserved." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="178.0" prefHeight="55.0" prefWidth="39.0" text="T">
+         <font>
+            <Font name="DejaVu Serif Bold" size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="244.0" prefHeight="55.0" prefWidth="129.0" text="ditor" AnchorPane.leftAnchor="136.0" AnchorPane.rightAnchor="13.0">
+         <font>
+            <Font name="DejaVu Serif Bold" size="45.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="204.0" fitWidth="193.0" layoutX="43.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/logo1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="52.0" layoutY="187.0" prefHeight="55.0" prefWidth="87.0" text="ext">
+         <font>
+            <Font name="DejaVu Serif Bold" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
